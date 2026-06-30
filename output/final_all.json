@@ -1,0 +1,119 @@
+{
+    "threshold_score": 100.0,
+    "persons": [
+        {
+            "person_id": "P001",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 22.0,
+                "movement": 30.0,
+                "body_sway": 15.0,
+                "gesture": 22.0
+            },
+            "avg_total_score": 89.0,
+            "autism_prediction": 0
+        },
+        {
+            "person_id": "P002",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 23.0,
+                "movement": 31.0,
+                "body_sway": 21.0,
+                "gesture": 18.0
+            },
+            "avg_total_score": 93.0,
+            "autism_prediction": 0
+        },
+        {
+            "person_id": "P003",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 8.0,
+                "movement": 23.0,
+                "body_sway": 14.0,
+                "gesture": 14.0
+            },
+            "avg_total_score": 59.0,
+            "autism_prediction": 0
+        },
+        {
+            "person_id": "P004",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 26.0,
+                "movement": 38.0,
+                "body_sway": 24.0,
+                "gesture": 23.0
+            },
+            "avg_total_score": 111.0,
+            "autism_prediction": 1
+        },
+        {
+            "person_id": "P005",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 52.0,
+                "movement": 68.0,
+                "body_sway": 48.0,
+                "gesture": 44.0
+            },
+            "avg_total_score": 212.0,
+            "autism_prediction": 1
+        },
+        {
+            "person_id": "P006",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 8.0,
+                "movement": 23.0,
+                "body_sway": 4.0,
+                "gesture": 29.0
+            },
+            "avg_total_score": 64.0,
+            "autism_prediction": 0
+        },
+        {
+            "person_id": "P007",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 4.0,
+                "movement": 13.0,
+                "body_sway": 4.0,
+                "gesture": 9.0
+            },
+            "avg_total_score": 30.0,
+            "autism_prediction": 0
+        },
+        {
+            "person_id": "P008",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 43.0,
+                "movement": 95.0,
+                "body_sway": 34.0,
+                "gesture": 63.0
+            },
+            "avg_total_score": 235.0,
+            "autism_prediction": 1
+        },
+        {
+            "person_id": "P009",
+            "sessions_count": 1,
+            "avg_repetition": {
+                "head_turn": 3.0,
+                "movement": 9.0,
+                "body_sway": 1.0,
+                "gesture": 9.0
+            },
+            "avg_total_score": 22.0,
+            "autism_prediction": 0
+        }
+    ],
+    "summary": {
+        "persons_count": 9,
+        "autism_yes": 3,
+        "autism_no": 6
+    },
+    "note": "Screening-style heuristic, not a medical diagnosis."
+}
