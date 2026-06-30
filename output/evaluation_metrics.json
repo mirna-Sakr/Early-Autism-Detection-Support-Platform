@@ -1,0 +1,59 @@
+{
+    "type": "unsupervised",
+    "total_persons": 9,
+    "threshold_score": 100.0,
+    "autism_yes": 3,
+    "autism_no": 6,
+    "autism_rate": 0.3333,
+    "score_mean": 101.6667,
+    "score_std": 70.7075,
+    "score_min": 22.0,
+    "score_max": 235.0,
+    "per_person": [
+        {
+            "person_id": "P001",
+            "score": 89.0,
+            "prediction": 0
+        },
+        {
+            "person_id": "P002",
+            "score": 93.0,
+            "prediction": 0
+        },
+        {
+            "person_id": "P003",
+            "score": 59.0,
+            "prediction": 0
+        },
+        {
+            "person_id": "P004",
+            "score": 111.0,
+            "prediction": 1
+        },
+        {
+            "person_id": "P005",
+            "score": 212.0,
+            "prediction": 1
+        },
+        {
+            "person_id": "P006",
+            "score": 64.0,
+            "prediction": 0
+        },
+        {
+            "person_id": "P007",
+            "score": 30.0,
+            "prediction": 0
+        },
+        {
+            "person_id": "P008",
+            "score": 235.0,
+            "prediction": 1
+        },
+        {
+            "person_id": "P009",
+            "score": 22.0,
+            "prediction": 0
+        }
+    ]
+}

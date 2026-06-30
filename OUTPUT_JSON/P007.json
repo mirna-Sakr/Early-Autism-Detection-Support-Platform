@@ -1,0 +1,9 @@
+{
+    "stability": 0.8461538461538461,
+    "repetition": 0.6538461538461539,
+    "transition_rate": 0.15384615384615385,
+    "neutral_dominance": 0.6538461538461539,
+    "confidence_variability": 0.025893080036329556,
+    "emotion_diversity": 0.07692307692307693,
+    "emotion_entropy": 0.9305861002780922
+}

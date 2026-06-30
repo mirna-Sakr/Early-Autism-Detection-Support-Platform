@@ -1,0 +1,1097 @@
+[
+    {
+        "risk_score": 0.8680678601521017,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P001"
+    },
+    {
+        "risk_score": 0.874327259022726,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P002"
+    },
+    {
+        "risk_score": 0.8826907767877676,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P003"
+    },
+    {
+        "risk_score": 0.8904530739757377,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P004"
+    },
+    {
+        "risk_score": 0.8497155158202486,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P005"
+    },
+    {
+        "risk_score": 0.7931871066871519,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P006"
+    },
+    {
+        "risk_score": 0.9086240923806896,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P007"
+    },
+    {
+        "risk_score": 0.8767027206470872,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P008"
+    },
+    {
+        "risk_score": 0.8891368728100698,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P009"
+    },
+    {
+        "risk_score": 0.9315528629091051,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P010"
+    },
+    {
+        "risk_score": 0.8313383432107568,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P011"
+    },
+    {
+        "risk_score": 0.7930403073019966,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P012"
+    },
+    {
+        "risk_score": 0.9360058055932323,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P013"
+    },
+    {
+        "risk_score": 0.7988691778027491,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P014"
+    },
+    {
+        "risk_score": 0.7827181794653069,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P015"
+    },
+    {
+        "risk_score": 0.934783808468213,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P016"
+    },
+    {
+        "risk_score": 0.8768294472093209,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P017"
+    },
+    {
+        "risk_score": 0.8628108599113137,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P018"
+    },
+    {
+        "risk_score": 0.8221022727824554,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P019"
+    },
+    {
+        "risk_score": 0.9005216835046169,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P020"
+    },
+    {
+        "risk_score": 0.8663037055035925,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P021"
+    },
+    {
+        "risk_score": 0.9341111149905625,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P022"
+    },
+    {
+        "risk_score": 0.771113904749931,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P023"
+    },
+    {
+        "risk_score": 0.8461771417541669,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P024"
+    },
+    {
+        "risk_score": 0.8848981298743491,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P025"
+    },
+    {
+        "risk_score": 0.7992553165503969,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P026"
+    },
+    {
+        "risk_score": 0.8954907654985765,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P027"
+    },
+    {
+        "risk_score": 0.8933755428717884,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P028"
+    },
+    {
+        "risk_score": 0.864865735087095,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P029"
+    },
+    {
+        "risk_score": 0.9341701513079436,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P030"
+    },
+    {
+        "risk_score": 0.9196603333448894,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P031"
+    },
+    {
+        "risk_score": 0.8812997195336054,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P032"
+    },
+    {
+        "risk_score": 0.7763075127177759,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P033"
+    },
+    {
+        "risk_score": 0.8774627958263594,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P034"
+    },
+    {
+        "risk_score": 0.8900211637112667,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P035"
+    },
+    {
+        "risk_score": 0.7559759643269403,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P036"
+    },
+    {
+        "risk_score": 0.9051436666288626,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P037"
+    },
+    {
+        "risk_score": 0.851651501680481,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P038"
+    },
+    {
+        "risk_score": 0.8569514307581158,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P039"
+    },
+    {
+        "risk_score": 0.8996570737081913,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P040"
+    },
+    {
+        "risk_score": 0.941929642464635,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P041"
+    },
+    {
+        "risk_score": 0.8470992521235261,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P042"
+    },
+    {
+        "risk_score": 0.8203031770002112,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P043"
+    },
+    {
+        "risk_score": 0.9146320167700428,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P044"
+    },
+    {
+        "risk_score": 0.6883861055551652,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P045"
+    },
+    {
+        "risk_score": 0.9056242075629796,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P046"
+    },
+    {
+        "risk_score": 0.865008920864839,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P047"
+    },
+    {
+        "risk_score": 0.7168406267984154,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P048"
+    },
+    {
+        "risk_score": 0.90702193529456,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P049"
+    },
+    {
+        "risk_score": 0.9381460785836181,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P050"
+    },
+    {
+        "risk_score": 0.9324377521891917,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P051"
+    },
+    {
+        "risk_score": 0.8645188371241742,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P052"
+    },
+    {
+        "risk_score": 0.8414615321343853,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P053"
+    },
+    {
+        "risk_score": 0.8988427485663534,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P054"
+    },
+    {
+        "risk_score": 0.44860828918650836,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P055"
+    },
+    {
+        "risk_score": 0.8723580643116757,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P056"
+    },
+    {
+        "risk_score": 0.8274655823139905,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P057"
+    },
+    {
+        "risk_score": 0.9179485634568784,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P058"
+    },
+    {
+        "risk_score": 0.9366377429009615,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P059"
+    },
+    {
+        "risk_score": 0.8981487328298319,
+        "risk_level": "High",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "eye_contact": "Reduced eye contact"
+        },
+        "person_id": "P060"
+    },
+    {
+        "risk_score": 0.5573499216794104,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P061"
+    },
+    {
+        "risk_score": 0.43778062408174395,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P062"
+    },
+    {
+        "risk_score": 0.45118127234906935,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P063"
+    },
+    {
+        "risk_score": 0.4779861326244187,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P064"
+    },
+    {
+        "risk_score": 0.4087900002180952,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P065"
+    },
+    {
+        "risk_score": 0.5002323993325044,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P066"
+    },
+    {
+        "risk_score": 0.47100081717279746,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P067"
+    },
+    {
+        "risk_score": 0.3706401402996286,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P068"
+    },
+    {
+        "risk_score": 0.4004339101129372,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P069"
+    },
+    {
+        "risk_score": 0.3477295949861347,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P070"
+    },
+    {
+        "risk_score": 0.4485200942447957,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P071"
+    },
+    {
+        "risk_score": 0.4335705640899566,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P072"
+    },
+    {
+        "risk_score": 0.3950006928546469,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P073"
+    },
+    {
+        "risk_score": 0.42920226131936146,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement"
+        },
+        "person_id": "P074"
+    },
+    {
+        "risk_score": 0.47191536088459024,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P075"
+    },
+    {
+        "risk_score": 0.43037623870184144,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P076"
+    },
+    {
+        "risk_score": 0.5176920608340895,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P077"
+    },
+    {
+        "risk_score": 0.39753643392434684,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P078"
+    },
+    {
+        "risk_score": 0.4367195716763295,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P079"
+    },
+    {
+        "risk_score": 0.399671772043759,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P080"
+    },
+    {
+        "risk_score": 0.4634045158139166,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P081"
+    },
+    {
+        "risk_score": 0.4662641222179077,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P082"
+    },
+    {
+        "risk_score": 0.47761850159654384,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P083"
+    },
+    {
+        "risk_score": 0.47390084498577106,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P084"
+    },
+    {
+        "risk_score": 0.483802602933546,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P085"
+    },
+    {
+        "risk_score": 0.44386118765405974,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P086"
+    },
+    {
+        "risk_score": 0.45866565226636097,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P087"
+    },
+    {
+        "risk_score": 0.4953499128864076,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P088"
+    },
+    {
+        "risk_score": 0.4384218390539636,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement"
+        },
+        "person_id": "P089"
+    },
+    {
+        "risk_score": 0.4378580764675719,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P090"
+    },
+    {
+        "risk_score": 0.42932895922755515,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P091"
+    },
+    {
+        "risk_score": 0.49294373776463074,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P092"
+    },
+    {
+        "risk_score": 0.4605712249556879,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement"
+        },
+        "person_id": "P093"
+    },
+    {
+        "risk_score": 0.43941271451514874,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P094"
+    },
+    {
+        "risk_score": 0.5000370521099472,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P095"
+    },
+    {
+        "risk_score": 0.43629385192161424,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P096"
+    },
+    {
+        "risk_score": 0.43835290833481666,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability"
+        },
+        "person_id": "P097"
+    },
+    {
+        "risk_score": 0.4248382629569799,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P098"
+    },
+    {
+        "risk_score": 0.47756244786193497,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P099"
+    },
+    {
+        "risk_score": 0.43392964412695095,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P100"
+    },
+    {
+        "risk_score": 0.4749100531957074,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P101"
+    },
+    {
+        "risk_score": 0.37679752427141494,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P102"
+    },
+    {
+        "risk_score": 0.48324193318674147,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P103"
+    },
+    {
+        "risk_score": 0.4799155985000368,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P104"
+    },
+    {
+        "risk_score": 0.43107163114776353,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P105"
+    },
+    {
+        "risk_score": 0.4734414398453795,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P106"
+    },
+    {
+        "risk_score": 0.45039396984352004,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P107"
+    },
+    {
+        "risk_score": 0.5887561727445144,
+        "risk_level": "Medium",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement"
+        },
+        "person_id": "P108"
+    },
+    {
+        "risk_score": 0.45119411463333164,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P109"
+    },
+    {
+        "risk_score": 0.4935719811855837,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P110"
+    },
+    {
+        "risk_score": 0.43681470326223615,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P111"
+    },
+    {
+        "risk_score": 0.4289657531229216,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P112"
+    },
+    {
+        "risk_score": 0.4837170489079051,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P113"
+    },
+    {
+        "risk_score": 0.4235849632722796,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P114"
+    },
+    {
+        "risk_score": 0.375448871299007,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement"
+        },
+        "person_id": "P115"
+    },
+    {
+        "risk_score": 0.44198449193152317,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P116"
+    },
+    {
+        "risk_score": 0.4945085614300948,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P117"
+    },
+    {
+        "risk_score": 0.42796243303096676,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P118"
+    },
+    {
+        "risk_score": 0.3380131781187246,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P119"
+    },
+    {
+        "risk_score": 0.41270540296021063,
+        "risk_level": "Low",
+        "key_insights": {
+            "emotional_pattern": "Limited emotional variability",
+            "motor_behavior": "High repetitive movement",
+            "gesture_behavior": "Frequent gestures observed"
+        },
+        "person_id": "P120"
+    }
+]

@@ -1,0 +1,33 @@
+run 
+     python -m venv venv
+     venv\Scripts\activate
+ then in venv folder run 
+            pip install --upgrade pip
+          pip install numpy pandas opencv-python mediapipe scikit-learn tensorflow deepface retina-face matplotlib fastapi uvicorn
+         pip install mediapipe
+
+then Ctrl + Shift + P
+write : Python: Select Interpreter
+choose : .\venv\Scripts\python.exe
+
+preprocessing
+python -m core.evaluate_preprocessing.py
+
+emotion model:
+python -m emotion_model.build_emotion_json.py
+
+pose model:
+  python -3.11 Pose_Detection.py
+
+RUN fusion model 
+python fusion_model/build_dataset.py
+python fusion_model/train_mlp.py
+python main.py
+
+api setup 
+pip install fastapi uvicorn
+
+api run
+uvicorn main_api:app --reload
+go to http://127.0.0.1:8000 
+http://127.0.0.1:8000/docs
