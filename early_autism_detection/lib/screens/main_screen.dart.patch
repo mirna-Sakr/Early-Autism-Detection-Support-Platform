@@ -1,0 +1,231 @@
+*** Begin Patch
+*** Update File: d:\\early_autism_detection\\lib\\screens\\main_screen.dart
+@@
+-  @override
+-  Widget build(BuildContext context) {
+-    return Scaffold(
+-      appBar: AppBar(
+-        title: const Text('Home'),
+-        backgroundColor: Colors.grey.shade800,
+-        foregroundColor: Colors.white,
+-        elevation: 0,
+-      ),
+-      body: Container(
+-        decoration: BoxDecoration(
+-          gradient: LinearGradient(
+-            begin: Alignment.topCenter,
+-            end: Alignment.bottomCenter,
+-            colors: [
+-              Colors.grey.shade50,
+-              Colors.white,
+-            ],
+-          ),
+-        ),
+-        child: Center(
+-          child: Column(
+-            mainAxisAlignment: MainAxisAlignment.center,
+-            children: [
+-              Container(
+-                padding: const EdgeInsets.all(20),
+-                child: Column(
+-                  children: [
+-                    LayoutBuilder(builder: (context, constr) {
+-                      final w = constr.maxWidth;
+-                      final avatarRadius = w < 360 ? 34.0 : w < 600 ? 40.0 : 48.0;
+-                      return Column(
+-                        children: [
+-                          ProfileAvatar(
+-                            imageUrl: _profile.imageUrl,
+-                            radius: avatarRadius,
+-                          ),
+-                          const SizedBox(height: 10),
+-                          Text(
+-                            'Welcome, ${_profile.name}',
+-                            style: TextStyle(
+-                              fontSize: avatarRadius * 0.5,
+-                              fontWeight: FontWeight.bold,
+-                              color: Colors.grey.shade800,
+-                            ),
+-                          ),
+-                        ],
+-                      );
+-                    }),
+-                  ],
+-                ),
+-              ),
+-              const SizedBox(height: 40),
+-              Row(
+-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+-                children: [
+-                  LayoutBuilder(builder: (context, constr) {
+-                    final width = constr.maxWidth;
+-                    final btnSize = width < 360 ? 72.0 : width < 600 ? 90.0 : 110.0;
+-                    return Row(
+-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+-                      children: [
+-                        _buildIconButton(
+-                          context,
+-                          icon: Icons.analytics,
+-                          label: 'Track\nBehavior',
+-                          color: Colors.grey.shade600,
+-                          size: btnSize,
+-                          onTap: () {
+-                            ScaffoldMessenger.of(context).showSnackBar(
+-                              const SnackBar(
+-                                content: Text('Use the bottom tabs to view dashboard and activities.'),
+-                              ),
+-                            );
+-                          },
+-                        ),
+-                        _buildIconButton(
+-                          context,
+-                          icon: Icons.recommend,
+-                          label: 'Recommend\nActivities',
+-                          color: Colors.grey.shade500,
+-                          size: btnSize,
+-                          onTap: () {
+-                            Navigator.push(
+-                              context,
+-                              MaterialPageRoute(
+-                                builder: (context) => RecommendationsScreen(
+-                                  childId: _profile.id,
+-                                ),
+-                              ),
+-                            );
+-                          },
+-                        ),
+-                        _buildIconButton(
+-                          context,
+-                          icon: Icons.person,
+-                          label: 'Child\nProfile',
+-                          color: Colors.grey.shade700,
+-                          size: btnSize,
+-                          onTap: () {
+-                            ScaffoldMessenger.of(context).showSnackBar(
+-                              const SnackBar(
+-                                content: Text('Use the bottom Profile tab to view this child account.'),
+-                              ),
+-                            );
+-                          },
+-                        ),
+-                      ],
+-                    );
+-                  }),
+-                ],
+-              ),
+-            ],
+-          ),
+-        ),
+-      ),
+-    );
+-  }
++  @override
++  Widget build(BuildContext context) {
++    return Scaffold(
++      appBar: AppBar(
++        title: const Text('Home'),
++        backgroundColor: Colors.grey.shade800,
++        foregroundColor: Colors.white,
++        elevation: 0,
++      ),
++      body: Container(
++        decoration: BoxDecoration(
++          gradient: LinearGradient(
++            begin: Alignment.topCenter,
++            end: Alignment.bottomCenter,
++            colors: [
++              Colors.grey.shade50,
++              Colors.white,
++            ],
++          ),
++        ),
++        child: Center(
++          child: Column(
++            mainAxisAlignment: MainAxisAlignment.center,
++            children: [
++              Container(
++                padding: const EdgeInsets.all(20),
++                child: LayoutBuilder(builder: (context, constr) {
++                  final w = constr.maxWidth;
++                  final avatarRadius = w < 360 ? 34.0 : w < 600 ? 40.0 : 48.0;
++                  return Column(
++                    children: [
++                      ProfileAvatar(
++                        imageUrl: _profile.imageUrl,
++                        radius: avatarRadius,
++                      ),
++                      const SizedBox(height: 10),
++                      Text(
++                        'Welcome, ${_profile.name}',
++                        style: TextStyle(
++                          fontSize: avatarRadius * 0.5,
++                          fontWeight: FontWeight.bold,
++                          color: Colors.grey.shade800,
++                        ),
++                      ),
++                    ],
++                  );
++                }),
++              ),
++              const SizedBox(height: 40),
++              LayoutBuilder(builder: (context, constr) {
++                final width = constr.maxWidth;
++                final btnSize = width < 360 ? 72.0 : width < 600 ? 90.0 : 110.0;
++                return Row(
++                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
++                  children: [
++                    _buildIconButton(
++                      context,
++                      icon: Icons.analytics,
++                      label: 'Track\\nBehavior',
++                      color: Colors.grey.shade600,
++                      size: btnSize,
++                      onTap: () {
++                        ScaffoldMessenger.of(context).showSnackBar(
++                          const SnackBar(
++                            content: Text('Use the bottom tabs to view dashboard and activities.'),
++                          ),
++                        );
++                      },
++                    ),
++                    _buildIconButton(
++                      context,
++                      icon: Icons.recommend,
++                      label: 'Recommend\\nActivities',
++                      color: Colors.grey.shade500,
++                      size: btnSize,
++                      onTap: () {
++                        Navigator.push(
++                          context,
++                          MaterialPageRoute(
++                            builder: (context) => RecommendationsScreen(
++                              childId: _profile.id,
++                            ),
++                          ),
++                        );
++                      },
++                    ),
++                    _buildIconButton(
++                      context,
++                      icon: Icons.person,
++                      label: 'Child\\nProfile',
++                      color: Colors.grey.shade700,
++                      size: btnSize,
++                      onTap: () {
++                        ScaffoldMessenger.of(context).showSnackBar(
++                          const SnackBar(
++                            content: Text('Use the bottom Profile tab to view this child account.'),
++                          ),
++                        );
++                      },
++                    ),
++                  ],
++                );
++              }),
++            ],
++          ),
++        ),
++      ),
++    );
++  }
+*** End Patch
