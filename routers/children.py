@@ -4,8 +4,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
 from core.database import get_db
-from models.db_models import Child, Parent, Session, AnalysisResult, Recommendation
-from schemas.schemas import (
+from core.db_models import Child, Parent, Session, AnalysisResult, Recommendation
+from core.schemas import (
     AddChildRequest,
     UpdateChildRequest,
     ChildProfileResponse,
@@ -48,10 +48,6 @@ def _child_to_response(child: Child, last_assessment: str | None = None) -> Chil
     response_model=list[ChildProfileResponse],
 )
 async def get_children(parent_id: int, db: AsyncSession = Depends(get_db)):
-    """
-    Return all children for a parent.
-    Flutter calls this right after login to show the child selection screen.
-    """
     result = await db.execute(
         select(Child).where(Child.parent_id == parent_id)
     )
@@ -59,7 +55,6 @@ async def get_children(parent_id: int, db: AsyncSession = Depends(get_db)):
 
     response = []
     for child in children:
-        # find latest analysis date for this child
         sess_result = await db.execute(
             select(Session)
             .where(Session.child_id == child.id)
@@ -68,8 +63,15 @@ async def get_children(parent_id: int, db: AsyncSession = Depends(get_db)):
         )
         last_session = sess_result.scalar_one_or_none()
         last_assessment = None
-        if last_session and last_session.analysis_result:
-            last_assessment = last_session.analysis_result.analyzed_at.isoformat()
+        if last_session:
+            ar_result = await db.execute(
+                select(AnalysisResult).where(
+                    AnalysisResult.session_id == last_session.id
+                )
+            )
+            last_ar = ar_result.scalar_one_or_none()
+            if last_ar:
+                last_assessment = last_ar.analyzed_at.isoformat()
 
         response.append(_child_to_response(child, last_assessment))
 
@@ -87,7 +89,6 @@ async def add_child(
     body: AddChildRequest,
     db: AsyncSession = Depends(get_db),
 ):
-    """Add a new child profile under a parent."""
     parent = await db.get(Parent, parent_id)
     if parent is None:
         raise HTTPException(status_code=404, detail="Parent not found")
@@ -113,7 +114,6 @@ async def add_child(
 # ─── GET /children/{child_id} ─────────────────────────────────────────────────
 @router.get("/children/{child_id}", response_model=ChildProfileResponse)
 async def get_child(child_id: int, db: AsyncSession = Depends(get_db)):
-    """Return a single child's profile."""
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")
@@ -127,12 +127,11 @@ async def update_child(
     body: UpdateChildRequest,
     db: AsyncSession = Depends(get_db),
 ):
-    """Update a child's name or birth date."""
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")
 
-    birth       = datetime.fromisoformat(body.birth_date).date()
+    birth            = datetime.fromisoformat(body.birth_date).date()
     child.name       = body.name
     child.birth_date = birth
     child.age        = _child_age(birth)
@@ -145,20 +144,10 @@ async def update_child(
 # ─── GET /children/{child_id}/assessment ──────────────────────────────────────
 @router.get("/children/{child_id}/assessment", response_model=AssessmentResultResponse)
 async def get_assessment(child_id: int, db: AsyncSession = Depends(get_db)):
-    """
-    Return the latest autism risk assessment for a child.
-    Flutter uses this for the dashboard risk indicator.
-
-    risk_level mapping  →  level (0-1 float used by Flutter gauge):
-      "low"      → 0.2
-      "moderate" → 0.5
-      "high"     → 0.8
-    """
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")
 
-    # get latest session with a result
     sess_result = await db.execute(
         select(Session)
         .where(Session.child_id == child_id)
@@ -184,7 +173,7 @@ async def get_assessment(child_id: int, db: AsyncSession = Depends(get_db)):
 
     return AssessmentResultResponse(
         level=level_val,
-        confidence_score=float(analysis.confidence_score) / 100,  # DB stores 0-100, Flutter expects 0-1
+        confidence_score=float(analysis.confidence_score) / 100,
         level_label=analysis.risk_level,
         last_updated=analysis.analyzed_at.isoformat(),
     )
@@ -193,14 +182,6 @@ async def get_assessment(child_id: int, db: AsyncSession = Depends(get_db)):
 # ─── GET /children/{child_id}/behavior ────────────────────────────────────────
 @router.get("/children/{child_id}/behavior", response_model=BehaviorMetricsResponse)
 async def get_behavior_metrics(child_id: int, db: AsyncSession = Depends(get_db)):
-    """
-    Return eye-contact and social-interaction percentages for the dashboard chart.
-    These are derived from the latest session's pose.json values stored at analysis time.
-
-    NOTE: Currently returns estimated values based on risk_level.
-    When the AI model is integrated, store the raw pose metrics in a separate table
-    and return them here.
-    """
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")
@@ -227,8 +208,6 @@ async def get_behavior_metrics(child_id: int, db: AsyncSession = Depends(get_db)
     if analysis is None:
         raise HTTPException(status_code=404, detail="No assessment found for this child")
 
-    # Estimated metrics per risk level
-    # Replace with real stored values once AI pipeline saves them
     behavior_map = {
         "low":      {"eye_contact": 72.0, "social_interaction": 68.0},
         "moderate": {"eye_contact": 45.0, "social_interaction": 40.0},
@@ -246,15 +225,10 @@ async def get_behavior_metrics(child_id: int, db: AsyncSession = Depends(get_db)
 # ─── GET /children/{child_id}/recommendations ─────────────────────────────────
 @router.get("/children/{child_id}/recommendations", response_model=RecommendationsResponse)
 async def get_recommendations(child_id: int, db: AsyncSession = Depends(get_db)):
-    """
-    Return therapy recommendations based on the child's latest risk level.
-    Flutter passes level as a query param but we ignore it and use the DB value.
-    """
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")
 
-    # find latest risk level
     sess_result = await db.execute(
         select(Session)
         .where(Session.child_id == child_id)
@@ -281,15 +255,11 @@ async def get_recommendations(child_id: int, db: AsyncSession = Depends(get_db))
     )
     recs = rec_result.scalars().all()
 
-    # Build recommendation items with title extracted from the text
     items = []
     for rec in recs:
-        # recommendation_text format: "Title: description"
-        # e.g. "Applied Behavior Analysis (ABA): Uses data-driven..."
         parts = rec.recommendation_text.split(":", 1)
         title = parts[0].strip()
         description = parts[1].strip() if len(parts) > 1 else rec.recommendation_text
-
         items.append(RecommendationItem(
             id=str(rec.id),
             title=title,

@@ -3,8 +3,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
 from core.database import get_db
-from models.db_models import Notification
-from schemas.schemas import NotificationResponse, NotificationListResponse
+from core.db_models import Notification
+from core.schemas import NotificationResponse, NotificationListResponse
 
 router = APIRouter()
 
@@ -45,7 +45,7 @@ async def get_daily_reminder(child_id: int, db: AsyncSession = Depends(get_db)):
     Return the latest unread notification for the parent of this child.
     Flutter calls this endpoint to show the daily reminder card on the dashboard.
     """
-    from models.db_models import Child
+    from core.db_models import Child
     child = await db.get(Child, child_id)
     if child is None:
         raise HTTPException(status_code=404, detail="Child not found")

@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker, DeclarativeBase
 # DATABASE_URL=postgresql+asyncpg://user:password@localhost:5432/autism_db
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+asyncpg://postgres:password@localhost:5432/autism_db",
+    "postgresql+asyncpg://postgres:menna2024@localhost:5432/Autism_DB",
 )
 
 engine = create_async_engine(DATABASE_URL, echo=False)

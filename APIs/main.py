@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routers import auth, children, sessions, notifications
+from core import auth
+from routers import children, sessions, notifications
 
 app = FastAPI(
     title="Autism Screening API",

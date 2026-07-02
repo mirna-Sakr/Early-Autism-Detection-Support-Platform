@@ -14,8 +14,8 @@ import cloudinary.uploader
 import urllib.request
 
 from core.database import get_db, DATABASE_URL
-from models.db_models import Session as DBSession, AnalysisResult, Child, Notification
-from schemas.schemas import (
+from core.db_models import Session as DBSession, AnalysisResult, Child, Notification
+from core.schemas import (
     CreateSessionRequest,
     SessionResponse,
     AnalysisResponse,
